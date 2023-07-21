@@ -11,6 +11,6 @@ public class Order {
     private @Id @GeneratedValue(strategy = GenerationType.IDENTITY) Long id;
 
     private String description;
-    private String status;
+    private OrderStatus status;
 
 }
